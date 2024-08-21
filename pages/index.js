@@ -15,6 +15,13 @@ const DUMMY_MEETUPS = [
         address: 'Sime address 6, 123 random street',
         description: 'This is a second meetup'
     },
+    {
+        id: 'm3',
+        title: 'A second meetup',
+        image: 'https://www.meetup.com/blog/wp-content/uploads/2022/05/option-1.jpg',
+        address: 'Sime address 6, 123 random street',
+        description: 'This is a second meetup'
+    },
 ]
 const HomePage = (props) => {
   return (
