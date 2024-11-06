@@ -10,9 +10,6 @@ const handler = async (req, res) => {
       "mongodb+srv://owner:dcoolboy06@nextjs-meetupapp.ut1ms.mongodb.net/?retryWrites=true&w=majority&appName=NextJS-meetupApp"
     );
 
-    // const client = await MongoClient.connect(
-    //   'mongodb+srv://<meetupapp>:<qwertyuiop>@nextjs-meetupapp.ut1ms.mongodb.net/?retryWrites=true&w=majority&appName=NextJS-meetupApp'
-    // )
 
     const db = client.db()
 
